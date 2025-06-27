@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Link Travel／Contact</title>
+  <link rel="stylesheet" href="common.css">
+</head>
+<body>
+<header>
+  <img src="image/logo.png" alt="Link Travel ロゴ">
+  <nav>
+    <ul>
+      <li><a href="index.html">Top</a></li>
+      <li><a href="service.html">Service</a></li>
+      <li><a href="plan.html">Plan</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<h1 class="page-title">Link Travel お問い合わせフォーム</h1>
+
+<form class="contact-form">
+  <label>お名前<input type="text" required></label>
+  <label>メールアドレス<input type="email" required></label>
+  <label>出発予定日<input type="date"></label>
+
+  <fieldset>
+    <legend>海外旅⾏の経験</legend>
+    <label><input type="radio" name="exp" value="yes">あり</label>
+    <label><input type="radio" name="exp" value="no">なし</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>旅⾏の⽬的</legend>
+    <label><input type="checkbox">観光</label>
+    <label><input type="checkbox">グルメ</label>
+    <label><input type="checkbox">ショッピング</label>
+  </fieldset>
+
+  <label>お問い合わせ内容<textarea rows="5"></textarea></label>
+  <button type="submit">送信</button>
+</form>
+
+<footer>©2024 Link Travel</footer>
+</body>
+</html>
